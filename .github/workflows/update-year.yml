@@ -22,7 +22,7 @@ jobs:
       - name: Update year in README
         run: |
           FILE_PATH="profile/README.md"
-          sed -i "s/© [0-9]\{4\}/© $(date +%Y)/g" "$FILE_PATH"
+          sed -i 's/© YEAR Lositha Technology - Crafting Digital Excellence/© $(date +%Y) Lositha Technology - Crafting Digital Excellence/g' "$FILE_PATH"
 
       - name: Commit and push changes
         env:
