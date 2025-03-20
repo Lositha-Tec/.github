@@ -5,7 +5,7 @@
   <div style="height: 3px; background-color: #000080; margin: 20px 0;"></div>
 
   ### Transforming Ideas into Digital Solutions
-  Enterprise Software Development | AI Solutions | Web Applications
+  Enterprise Software Development | AI Solutions | Web Applications | Mobile Application
 </div>
 
 ---
