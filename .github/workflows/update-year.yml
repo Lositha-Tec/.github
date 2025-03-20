@@ -25,9 +25,11 @@ jobs:
           sed -i "s/© [0-9]\{4\}/© $(date +%Y)/g" "$FILE_PATH"
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Update copyright year to $(date +%Y)"
-          git push
+          git push "https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
