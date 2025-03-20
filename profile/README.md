@@ -33,5 +33,5 @@
 - **Collaborate with Us:** Let's turn your concept into reality!
 
 <div style="margin-top: 30px; padding: 20px 0; border-top: 2px solid #000080;">
-  <p style="color: #000080;">© YEAR Lositha Technology - Crafting Digital Excellence</p>
+  <p style="color: #000080;">© $(date +%Y) Lositha Technology - Crafting Digital Excellence</p>
 </div>
