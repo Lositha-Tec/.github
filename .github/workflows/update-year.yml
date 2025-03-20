@@ -13,7 +13,7 @@ jobs:
 
       - name: Update year in README
         run: |
-          sed -i "s/© [0-9]\{4\}/© $(date +%Y)/g" .github/profile/README.md
+          sed -i "s/© [0-9]\{4\}/© $(date +%Y)/g" ./profile/README.md
 
       - name: Commit and push changes
         if: contains(steps.update-year.outputs.result, 'changed')
