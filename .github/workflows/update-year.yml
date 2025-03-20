@@ -1,4 +1,5 @@
 name: Update Copyright Year
+
 on:
   schedule:
     - cron: '0 0 1 1 *' # Runs every year on January 1st
