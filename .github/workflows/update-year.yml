@@ -19,6 +19,10 @@ jobs:
         run: |
           ls -R
 
+      - name: Print current year for debugging
+        run: |
+          echo "Current Year: $(date +%Y)"
+
       - name: Update year in README
         run: |
           FILE_PATH="profile/README.md"
