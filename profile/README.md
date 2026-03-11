@@ -29,7 +29,7 @@
 ---
 
 ## 📫 Let's Connect
-- **Innovation Inquiries:** contact@losithatech.cyou
+- **Innovation Inquiries:** contact@liti.cyou
 - **Collaborate with Us:** Let's turn your concept into reality!
 
 <div style="margin-top: 30px; padding: 20px 0; border-top: 2px solid #000080;">
